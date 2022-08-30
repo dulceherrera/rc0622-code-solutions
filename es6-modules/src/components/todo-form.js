@@ -1,6 +1,6 @@
 import { createElement } from '../lib';
 
-export class TodoForm {
+class TodoForm {
   constructor(onSubmit) {
     this.newTask = '';
     this.element = null;
@@ -44,4 +44,4 @@ export class TodoForm {
   }
 }
 
-// module.exports = TodoForm;
+export default TodoForm;
