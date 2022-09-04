@@ -1,0 +1,41 @@
+.hidden {
+  display: none;
+}
+
+.visible {
+  color: red;
+  margin-top: 0.3rem;
+  font-size: 1.3rem;
+}
+
+.red {
+  color: red;
+  font-size: 2rem;
+}
+
+.green {
+  color: green;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Patrick Hand", cursive;
+}
+
+.font-size {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 13%;
+  height: 2rem;
+  border: black solid 3px;
+  margin-right: 1.3rem;
+  font-size: 1.5rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
