@@ -36,7 +36,6 @@ export default class StopWatch extends React.Component {
         ticks: 0
       });
     }
-    clearInterval(this.intervalId);
   }
 
   render() {
