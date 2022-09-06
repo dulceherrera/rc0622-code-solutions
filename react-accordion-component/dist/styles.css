@@ -1,0 +1,38 @@
+.hidden {
+  display: none;
+}
+
+.closed {
+  background-color: #ddd;
+  border: solid black 2px;
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  font-size: 2rem;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+
+.open {
+  background-color: #ddd;
+  border: solid black 2px;
+  width: 30%;
+  height: 50%;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  font-size: 2rem;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+
+.visible {
+  width: 30%;
+  height: 6rem;
+  border: solid black 2px;
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.3rem;
+}
