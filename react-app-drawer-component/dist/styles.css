@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+  transition: step-start 2s;
+}
+
+.modal {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  opacity: 0;
+  position: absolute;
+  font-family: "Patrick Hand", cursive;
+  transition: all 0.2s;
+}
+
+#root {
+  height: 100%;
+}
+
+.grey {
+  background-color: rgb(0 0 0 / 30%);
+  height: 100%;
+  transition: step-start 2s;
+}
+
+i {
+  color: black;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.disappear {
+  opacity: 1;
+  border: black solid 3px;
+  left: 200;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+p {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.fa-solid:hover {
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+p:hover {
+  cursor: pointer;
+}
