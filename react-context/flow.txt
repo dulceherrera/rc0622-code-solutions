@@ -1,0 +1,19 @@
+User can sign up
+- When the submit button is clicked, handleSubmited is fired
+- The server calls POST request
+- If there is a problem with username or password, an error is thrown
+- If the condition for sign up passes, the database creates the username and the hashedPassword
+- The sign up page is re-rendered to sign in page
+
+User can sign in
+- When the submit button is clicked, handleSubmited is fired
+- The server calls POST request
+- If username and password matches in the database, the server creates a token
+
+User can stay signed in
+- Server checks for the token and for the user. Decrypt the token and check if is the same user after refreshing the page.
+- If the user and token do not match, the page throw an error. Else, the page stays
+
+User can sign out
+- When the button Sign Out is clicked, handleSignOut is called
+- The user will be null, and the page will change to sign in page.
